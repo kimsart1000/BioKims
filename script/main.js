@@ -28,6 +28,16 @@ function konfirmasi3(){
     }
 }
 
+function konfirmasi4(){
+    var tanya = confirm("Apakah anda ingin pindah halaman??");
+
+    if(tanya){
+        window.location = "p03form-lv1/p03form-lv1.html";
+    }else{
+        window.location = "index.html";
+    }
+}
+
 function konfirmasiKembali(){
     var kembali = confirm("Apakah ingin kembali ke halaman utama?");
 
@@ -45,5 +55,15 @@ function konfirmasiKembali2(){
         window.location = "../index.html";
     }else{
         window.location = "tabel-2.html";
+    }
+}
+
+function KonfirmasiKembali4(){
+    var kembali = confirm("Apakah ingin kembali ke halaman utama?");
+
+    if(kembali){
+        window.location = "../p03form-lv1.html";
+    }else{
+        window.location = "index.html";
     }
 }
